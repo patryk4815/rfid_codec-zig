@@ -1,0 +1,11 @@
+.{
+    .name = .rfid_codec,
+    .version = "0.0.1",
+    .fingerprint = 0x4df28a8d071cf54b,
+    .minimum_zig_version = "0.15.1",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
