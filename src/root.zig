@@ -6,3 +6,11 @@ pub const bplc = @import("bplc.zig");
 
 pub const hitags = @import("hitags.zig");
 pub const em4100 = @import("em4100.zig");
+
+// run tests
+comptime {
+    _ = bplc;
+    _ = hitags;
+    _ = em4100;
+    _ = decoders;
+}

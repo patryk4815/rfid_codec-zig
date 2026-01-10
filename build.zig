@@ -6,7 +6,6 @@ pub fn build(b: *std.Build) void {
 
     const mod = b.addModule("rfid_codec", .{
         .root_source_file = b.path("src/root.zig"),
-        // .root_source_file = b.path("src/decoder.zig"),
         .target = target,
         .optimize = optimize,
     });
